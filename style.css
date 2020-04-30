@@ -1,0 +1,68 @@
+body
+{
+  height: 100%;
+  width: 100%;
+  background-color: #f1f2f6;
+}
+
+#form-holder
+{
+background-color: #ced6e0;
+border-radius: 50px;
+}
+#myfrom
+{
+  text-align: center;
+  justify-content: space-between;
+  font-size: 3vh;
+}
+input
+{
+  display: table-row;
+  border: none;
+  width:50%;
+  height: 5vh;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 1%;
+}
+label
+{
+  margin: 2%;
+  padding: 1%;
+  font-size: 3vh;
+  color: #2f3542;
+}
+#submitbtn
+{
+  width:12%;
+  height: 8vh;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  font-size: 3vh;
+  color: #57606f;
+}
+
+.well
+{
+  background-color: #54a0ff;
+  border-radius: 25px;
+  width: 70%;
+  margin-left: 12%;
+  align-items: center;
+}
+.nameweb
+{
+  color:white;
+  font-size: 5vh;
+  padding: 2%;
+}
+.btn-default , .btn-danger
+{
+  float: right;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #f1f2f6;
+  text-decoration: none;
+}
